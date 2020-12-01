@@ -1,0 +1,125 @@
+<!DOCTYPE html >
+
+<html>
+
+<head>
+    <title>CSS
+        Quadrat</title>
+
+    <style>
+        * {
+
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        .stage {
+
+            position: relative;
+
+        }
+
+        .form {
+            position: absolute;
+
+        }
+
+        .quadrat {
+
+            width: 30vw;
+            height: 30vw;
+            background-color: red;
+            left: 27vw;
+            top: 27vw;
+
+
+
+
+        }
+
+
+
+        .kreis {
+
+            width: 25vw;
+            height: 25vw;
+            background-color: orange;
+            border-radius: 50%;
+
+
+        }
+
+        .stage {
+            overflow: hidden;
+            margin: 40px auto;
+            width: 70vw;
+            height: 50vw;
+            background: lightgrey;
+
+
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <div class="stage stage-01">
+
+        <div class="form quadrat"
+             
+             style="
+                                         left:20vw;
+                                         top: 15vw;
+                                         z-index:5"></div>
+
+        <div class="form kreis"
+             
+             
+             ></div>
+
+    </div>
+
+    <div class="stage stage-02">
+
+        <div class="form quadrat"
+             style="
+                                         left:5vw;
+                                         top: 10vw;
+                                         z-index:5"
+             ></div>
+
+        <div class="form kreis"
+             style="
+                    z-index:9"
+             
+             ></div>
+
+    </div>
+
+    <div class="stage stage-03">
+
+        <div class="form quadrat"
+             style="
+                                         left:5vw;
+                                         top:3vw;
+                                         z-index:50"
+             ></div>
+
+        <div class="form kreis"
+             
+             style="
+                                         left:25vw;
+                                         top: 15vw;
+                                         z-index:10"></div>
+
+    </div>
+
+
+
+
+</body></html>
